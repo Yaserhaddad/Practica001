@@ -11,7 +11,7 @@
 <body>
     <label for="nombre">Elige un nombre</label>
 
-        <select>
+        <select name="idPersona">
             <option value="<?= $id[0] ?>"><?= $nombres[0] ?></option>
             <option value="<?= $id[1] ?>"><?= $nombres[1] ?></option>
             <option value= "<?= $id[2] ?>"><?= $nombres[2] ?></option>
@@ -21,7 +21,8 @@
         </select>
         </br>
         </br>
-        <select>
+        <select name "idPersona">
+        <option value = "-1">&lt;Elija&gt;</option>
         <?php
             foreach ($nombres as $id => $denominacion){
                 echo "<option value='$id'>$denominacion</option>\n";
