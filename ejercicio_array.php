@@ -19,6 +19,18 @@
             <option value= "<?= $id[4] ?>"><?= $nombres[4] ?></option>
             <option value= "<?= $id[5] ?>"><?= $nombres[5] ?></option>
         </select>
+        </br>
+        </br>
+        <select>
+        <?php
+            foreach ($nombres as $id => $denominacion){
+                echo "<option value='$id'>$denominacion</option>\n";
+            }
+        
+        ?>
+        </select>
+
+
         <br/>
         </body>
 </html>
