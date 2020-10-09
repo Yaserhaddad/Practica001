@@ -12,24 +12,13 @@
     <label for="nombre">Elige un nombre</label>
 
         <select>
-            <option><?= $nombres[0] ?></option>
-            <option><?= $nombres[1] ?></option>
-            <option><?= $nombres[2] ?></option>
-            <option><?= $nombres[3] ?></option>
-            <option><?= $nombres[4] ?></option>
-            <option><?= $nombres[5] ?></option>
+            <option value="<?= $id[0] ?>"><?= $nombres[0] ?></option>
+            <option value="<?= $id[1] ?>"><?= $nombres[1] ?></option>
+            <option value= "<?= $id[2] ?>"><?= $nombres[2] ?></option>
+            <option value= "<?= $id[3] ?>"><?= $nombres[3] ?></option>
+            <option value= "<?= $id[4] ?>"><?= $nombres[4] ?></option>
+            <option value= "<?= $id[5] ?>"><?= $nombres[5] ?></option>
         </select>
         <br/>
-
-        <label for="numero">Elige un numero:</label>
-
-        <select>
-            <option><?= $id[0] ?></option>
-            <option><?= $id[1] ?></option>
-            <option><?= $id[2] ?></option>
-            <option><?= $id[3] ?></option>
-            <option><?= $id[4] ?></option>
-            <option><?= $id[5] ?></option>
-        </select>
         </body>
 </html>
